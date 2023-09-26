@@ -1,4 +1,5 @@
-while True:
+#3 BUGS TO FIND
+while True #colon
     print('Enter your age:')
     age = input()
     if age.isdecimal():
@@ -9,5 +10,5 @@ while True:
     print('Select a new password (letters and numbers only):')
     password = input()
     if password.isalnum():
-        break
-    print('Passwords can only have letters and numbers.') 
+        breaker #break
+    print('Passwords can only have letters and numbers.) #quotation mark
